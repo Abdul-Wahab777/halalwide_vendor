@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "901157018784",
+    "project_id": "halalwide",
+    "storage_bucket": "halalwide.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:901157018784:android:60cd79a0016f338df2fdc5",
+        "android_client_info": {
+          "package_name": "com.halalwide.customer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "901157018784-esb1pcfv15es06ffahb59hlr514479s7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7Ko8QRCCIm9voNShkbPunTvO4Wb89yuw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "901157018784-esb1pcfv15es06ffahb59hlr514479s7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "901157018784-qgple88nrvdqoh94e2m1erbh9c6dbsog.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.halalwide.customer"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:901157018784:android:2e765fcad4a5dafbf2fdc5",
+        "android_client_info": {
+          "package_name": "com.halalwide.vendor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "901157018784-esb1pcfv15es06ffahb59hlr514479s7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7Ko8QRCCIm9voNShkbPunTvO4Wb89yuw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "901157018784-esb1pcfv15es06ffahb59hlr514479s7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "901157018784-qgple88nrvdqoh94e2m1erbh9c6dbsog.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.halalwide.customer"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

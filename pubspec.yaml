@@ -1,0 +1,71 @@
+name: efood_multivendor_restaurant
+description: An application for multivendor ecommerce restaurant.
+publish_to: 'none'
+version: 1.0.1+2
+
+environment:
+  # sdk: ">=2.12.0 <3.0.0"
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  get: ^4.6.1
+  shared_preferences: ^2.0.6
+  connectivity: ^3.0.6
+  firebase_core: ^2.6.1
+  firebase_messaging: ^14.2.4
+  firebase_core_platform_interface: ^4.5.1
+  flutter_local_notifications: ^9.5.3+1
+  path_provider: ^2.0.8
+  url_strategy: ^0.2.0
+  shimmer_animation: ^2.0.0
+  image_picker: ^0.8.0+4
+  http: ^0.13.3
+  pin_code_fields: ^7.2.0
+  url_launcher: ^6.1.2
+  vibration: ^1.7.6
+  audioplayers: ^0.20.1
+  flutter_switch: ^0.3.2
+  # flutter_typeahead: ^4.1.1
+  flutter_typeahead: ^4.3.1
+  phone_number: ^1.0.0
+  country_code_picker: ^2.0.2
+  flutter_widget_from_html_core: ^0.9.1
+  bluetooth_thermal_printer: ^0.0.6
+  esc_pos_utils: ^1.0.0
+  fwfh_text_style: ^2.22.8+1
+  google_maps_flutter: ^2.1.1
+  geolocator: ^9.0.2
+#  blue_thermal_printer: ^1.1.8
+#  bluetooth_print: ^3.0.1
+  card_swiper: ^2.0.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+# dependency_overrides:
+#   modal_bottom_sheet:
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/image/
+    - assets/language/
+    - assets/notification.mp3
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/font/Roboto-Regular.ttf
+          weight: 400
+        - asset: assets/font/Roboto-Medium.ttf
+          weight: 500
+        - asset: assets/font/Roboto-Bold.ttf
+          weight: 700
+        - asset: assets/font/Roboto-Black.ttf
+          weight: 900
